@@ -36,21 +36,22 @@
     "qrcode": "./bin/qrcode"
   },
   "dependencies": {
+    "@sinonjs/formatio": "^3.2.2",
+    "@sinonjs/samsam": "^4.2.0",
     "can-promise": "0.0.1",
+    "canvas": "^2.6.0",
     "dijkstrajs": "^1.0.1",
-    "isarray": "^2.0.1",
+    "isarray": "^2.0.5",
     "pngjs": "^3.3.0",
     "yargs": "^12.0.5"
   },
   "devDependencies": {
     "browserify": "^16.2.3",
-    "canvas": "^1.6.11",
     "canvasutil": "*",
     "colors": "*",
     "express": "^4.16.4",
     "htmlparser2": "^3.9.2",
     "os-tmpdir": "^1.0.2",
-    "sinon": "^1.17.7",
     "standard": "^9.0.2",
     "tap": "^12.1.1",
     "uglify-js": "^2.7.5"
